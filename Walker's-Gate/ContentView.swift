@@ -9,11 +9,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            // استدعاء الخريطة لتملأ الشاشة
+            // استدعاء الخريطة
             MapViewRepresentable()
                 .edgesIgnoringSafeArea(.all)
             
-            // واجهة علوية بسيطة لاسم اللعبة
             VStack {
                 HStack {
                     Text("Walker's Gate")
