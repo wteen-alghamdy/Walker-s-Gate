@@ -3,7 +3,9 @@
 //  Walker's-Gate
 //
 //  Created by Wteen Alghamdy on 13/08/1447 AH.
-//
+//المجمع الرئيسي. يضع الخريطة كطبقة أساسية، وفوقها عداد الطاقة، دائرة النقاط، وزر التوب 3.
+
+
 import SwiftUI
 
 struct ContentView: View {
